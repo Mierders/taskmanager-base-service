@@ -1,4 +1,4 @@
-package es.seonictech.taskmanager.program.exception;
+package es.seonictech.taskmanager.program.exception.handler;
 
 import java.util.ArrayList;
 import java.util.Comparator;

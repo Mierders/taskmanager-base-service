@@ -9,6 +9,7 @@
 	<properties>
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.repository.url>${maven.repository.url}</maven.repository.url>
 	</properties>
 
 	<dependencies>
@@ -23,12 +24,11 @@
 	<distributionManagement>
 		<snapshotRepository>
 			<id>bytesafe</id>
-			<url>https://irojas.bytesafe.dev/maven/seonictech/</url>
+			<url>${maven.repository.url}</url>
 		</snapshotRepository>
 		<repository>
 			<id>bytesafe</id>
-			<url>https://irojas.bytesafe.dev/maven/seonictech/</url>
+			<url>${maven.repository.url}</url>
 		</repository>
 	</distributionManagement>
-
 </project>

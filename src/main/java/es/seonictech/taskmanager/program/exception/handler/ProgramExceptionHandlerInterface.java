@@ -1,4 +1,4 @@
-package es.seonictech.taskmanager.program.exception;
+package es.seonictech.taskmanager.program.exception.handler;
 
 import es.seonictech.taskmanager.program.out.ErrorResponse;
 

@@ -4,7 +4,7 @@ import java.lang.reflect.ParameterizedType;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import es.seonictech.taskmanager.program.exception.ProgramExceptionManager;
+import es.seonictech.taskmanager.program.exception.handler.ProgramExceptionManager;
 import es.seonictech.taskmanager.program.out.EmptyResponse;
 import es.seonictech.taskmanager.program.out.ProgramResponseInterface;
 
